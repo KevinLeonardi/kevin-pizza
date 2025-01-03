@@ -18,17 +18,17 @@ function Navbar() {
       <div className='leftSide' id={openLinks? "open":"close"}>
         <img src={Logo} alt="pizzeria logo"/>
         <div className="hiddenLinks">
-          <Link to="/"> Home </Link>
-          <Link to="/menu"> Menu </Link>
-          <Link to="/about"> About </Link>
-          <Link to="/contact"> Contact </Link>
+          <Link to="/kevin-pizza/"> Home </Link>
+          <Link to="/kevin-pizza/menu"> Menu </Link>
+          <Link to="/kevin-pizza/about"> About </Link>
+          <Link to="/kevin-pizza/contact"> Contact </Link>
         </div>
       </div>
-      <div className='rightSide'>
-        <Link to="/"> Home </Link>
-        <Link to="/menu"> Menu </Link>
-        <Link to="/about"> About </Link>
-        <Link to="/contact"> Contact </Link>
+      <div className='rightSide' id={openLinks? "open":"close"}>
+        <Link to="/kevin-pizza/"> Home </Link>
+        <Link to="/kevin-pizza/menu"> Menu </Link>
+        <Link to="/kevin-pizza/about"> About </Link>
+        <Link to="/kevin-pizza/contact"> Contact </Link>
         <button onClick={toggleNavbar}>
           <ReorderIcon/>
         </button>

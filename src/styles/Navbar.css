@@ -43,30 +43,37 @@
   font-size: 40px;
 }
 
-.navbar #open {
+/* .navbar #open {
   padding-left: 0px;
-}
-.navbar #open img {
+} */
+
+/* .navbar #open img {
   display: none;
-}
+} ttp buka walau open atau close*/
 
 .navbar #close img {
   display: inherit;
 }
 
-.navbar #open .hiddenLinks {
+/* .navbar #open .hiddenLinks {
   display: inherit;
   margin-left: 30px;
-}
+} */
 
-.navbar #close .hiddenLinks {
+.navbar .hiddenLinks {
   display: none;
+  /* margin-left: 30px; */
 }
 
-.navbar #open a {
+/* .navbar .hiddenLinks {
+  display: none;
+} */
+
+/* .navbar #open a {
   width: 70px;
   margin: 5px;
-}
+} */
+
 @media only screen and (max-width: 900px) {
   .navbar .rightSide a {
     width: 70px;
@@ -83,11 +90,29 @@
 
   .navbar .rightSide {
     justify-content: flex-end;
-    padding-right: 50px;
   }
 
   .navbar .rightSide button {
     display: inherit;
+  }
+  
+  .navbar #open .hiddenLinks {
+    display: inherit;
+  } 
+
+  .navbar #open img {
+    display: none;
+  }
+  .navbar .rightSide{
+    padding-right: 50px;
+  }
+
+  #open{
+    padding-left: 0px;
+  }
+
+  #open{
+    padding-right: 0px;
   }
 }
 
