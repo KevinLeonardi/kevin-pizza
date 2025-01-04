@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kevin-pizza/static/css/main.00c4abef.css",
+    "main.css": "/kevin-pizza/static/css/main.e49df018.css",
     "main.js": "/kevin-pizza/static/js/main.7686ac8c.js",
     "static/js/453.85fab4a2.chunk.js": "/kevin-pizza/static/js/453.85fab4a2.chunk.js",
     "static/media/pizzaLeft.jpg": "/kevin-pizza/static/media/pizzaLeft.24b07891fef1c8dae848.jpg",
@@ -14,12 +14,12 @@
     "static/media/margherita.jpg": "/kevin-pizza/static/media/margherita.683bc9bb07f9ff0d82df.jpg",
     "static/media/special.jpg": "/kevin-pizza/static/media/special.425951cb0e484775fd4c.jpg",
     "index.html": "/kevin-pizza/index.html",
-    "main.00c4abef.css.map": "/kevin-pizza/static/css/main.00c4abef.css.map",
+    "main.e49df018.css.map": "/kevin-pizza/static/css/main.e49df018.css.map",
     "main.7686ac8c.js.map": "/kevin-pizza/static/js/main.7686ac8c.js.map",
     "453.85fab4a2.chunk.js.map": "/kevin-pizza/static/js/453.85fab4a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00c4abef.css",
+    "static/css/main.e49df018.css",
     "static/js/main.7686ac8c.js"
   ]
 }
