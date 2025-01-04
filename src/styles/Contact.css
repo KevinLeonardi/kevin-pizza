@@ -78,3 +78,25 @@ form button {
   font-size: 15px;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 1024px) {
+  .contact .rightSide h1 {
+    margin: 0px 30px;
+  }
+
+  form {
+    padding: 0px 30px;
+  }
+  
+  form textarea {
+    margin-top: 0px;
+  }
+
+  form label {
+    margin-top: 0px;
+  }
+  
+  form button {
+    margin-top: 0px;
+  } 
+}
