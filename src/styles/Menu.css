@@ -60,3 +60,9 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media only screen and (min-width: 1330px) {
+  .menu {
+    height: 90vh;
+  }
+}
