@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kevin-pizza/static/css/main.e49df018.css",
-    "main.js": "/kevin-pizza/static/js/main.7686ac8c.js",
+    "main.css": "/kevin-pizza/static/css/main.803ff09f.css",
+    "main.js": "/kevin-pizza/static/js/main.affd8232.js",
     "static/js/453.85fab4a2.chunk.js": "/kevin-pizza/static/js/453.85fab4a2.chunk.js",
     "static/media/pizzaLeft.jpg": "/kevin-pizza/static/media/pizzaLeft.24b07891fef1c8dae848.jpg",
     "static/media/vegan.jpg": "/kevin-pizza/static/media/vegan.52cbfe9e6f8d75e18f8b.jpg",
@@ -14,12 +14,12 @@
     "static/media/margherita.jpg": "/kevin-pizza/static/media/margherita.683bc9bb07f9ff0d82df.jpg",
     "static/media/special.jpg": "/kevin-pizza/static/media/special.425951cb0e484775fd4c.jpg",
     "index.html": "/kevin-pizza/index.html",
-    "main.e49df018.css.map": "/kevin-pizza/static/css/main.e49df018.css.map",
-    "main.7686ac8c.js.map": "/kevin-pizza/static/js/main.7686ac8c.js.map",
+    "main.803ff09f.css.map": "/kevin-pizza/static/css/main.803ff09f.css.map",
+    "main.affd8232.js.map": "/kevin-pizza/static/js/main.affd8232.js.map",
     "453.85fab4a2.chunk.js.map": "/kevin-pizza/static/js/453.85fab4a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e49df018.css",
-    "static/js/main.7686ac8c.js"
+    "static/css/main.803ff09f.css",
+    "static/js/main.affd8232.js"
   ]
 }
