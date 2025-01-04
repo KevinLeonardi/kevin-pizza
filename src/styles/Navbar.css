@@ -11,11 +11,11 @@
   height: 100%;
   display: flex;
   align-items: center;
-  padding-left: 150px;
 }
 
 .navbar .leftSide img {
   width: 70px;
+  padding-left: 150px;
 }
 
 .navbar .rightSide {
@@ -23,13 +23,12 @@
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .navbar a {
   color: white;
   text-decoration: none;
-  margin: 20px;
 }
 
 .navbar .rightSide button {
@@ -43,7 +42,7 @@
   font-size: 40px;
 }
 
-.navbar #close img {
+.navbar #RightSide\.is-closed img {
   display: inherit;
 }
 
@@ -52,10 +51,7 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .navbar .rightSide a {
-    width: 70px;
-  }
-  .navbar .leftSide {
+  .navbar .leftSide img {
     padding-left: 50px;
   }
 }
@@ -69,36 +65,32 @@
     justify-content: flex-end;
   }
 
-  .navbar .rightSide button {
+  #RightSide\.is-closed button {
     display: inherit;
+    padding-right: 56px;
   }
   
-  .navbar #open .hiddenLinks {
+  #LeftSide\.is-open .hiddenLinks {
     display: inherit;
+    justify-content: space-evenly;
+    width: 100%;
   } 
 
-  .navbar #open img {
+  #LeftSide\.is-open img {
     display: none;
   }
-  .navbar .rightSide{
-    padding-right: 50px;
+
+  #LeftSide\.is-open{
+    flex: 3;
   }
 
-  #open{
-    padding-left: 0px;
-  }
-
-  #open{
-    padding-right: 0px;
+  #RightSide\.is-open {
+    flex: 1;
   }
 }
 
 @media only screen and (min-width: 600px) {
   .navbar .rightSide button {
-    display: none;
-  }
-
-  .hiddenLinks {
     display: none;
   }
 }
